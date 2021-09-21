@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+    font-family: 'Inter var', sans-serif;
+    color: #333;
+    font-family: Inter, sans-serif;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 400;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    font-weight: bolder;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div h4 {
+    font-size: 20px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 0;
+    margin-right: auto;
+}
+
+.nav_links li,
+a,
+button {
+    font-family: "Inter var", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #484848;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #0ca1f1;
+    cursor: pointer;
+    line-height: 1.14285714;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a:hover {
+    color: #008bde;
+}
+
+#headOffer {
+    background-color: #ff8c00;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#register {
+    background-color: #008bde;
+    color: white;
+}
+
+#register:hover {
+    background-color: #0082d4;
+}
+
+.headingbutton {
+    padding: 9px 25px;
+    color: #008bde;
+    border: 1px solid #008bde;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.headingbutton:hover {
+    color: #0082d4;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+#searchbox {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#searchbox input {
+    height: 45px;
+    width: 500px;
+    padding: 0px 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 0.25px;
+    font-size: 18px;
+}
+
+#searchIcon {
+    color: white;
+    background-color: #008bde;
+    padding: 5px;
+    width: 45px;
+    border: 1px solid #008bde;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 24px;
+}
+
+#slider {
+    text-align: center;
+    display: flex;
+}
+
+#dots div {
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: #dddddd;
+    margin: 10px;
+}
+
+#dots {
+    display: flex;
+    justify-content: center;
+}
+
+#slides {
+    width: 30px !important;
+    margin: 10px;
+    border-radius: 10px;
+    height: 15px;
+    background-color: #008bdc !important;
+}
+
+.slide {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 180px !important;
+}
+
+#button1 {
+    margin-left: 40px !important;
+}
+
+#button1:hover {
+    box-shadow: 0.25px 0.5px 5px 2.5px rgb(165, 165, 165);
+}
+
+#button1,
+#btn2 {
+    background-color: #faf8f4;
+    color: rgb(109, 107, 107);
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    box-shadow: 0.25px 0.5px 5px 2.5px rgb(165, 165, 165);
+}
+
+#carasol {
+    margin: 30px;
+    width: 1052px;
+    height: 352px;
+    border-radius: 8px;
+    margin-bottom: 5px !important;
+}
+
+#carasol:hover {
+    box-shadow: 0.25px 0.5px 5px 2.5px rgb(165, 165, 165);
+}
+
+#internships .section_description {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.max-width-container {
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section .section_description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #484848;
+}
+
+.section .section_description .view_all {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view_all {
+    font-family: 'Inter var', sans-serif;
+}
+
+.view_all {
+    display: flex;
+    justify-content: center;
+    min-width: 328px;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+}
+
+#internships .categories_container {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.scroll_cards .card_item:first-of-type {
+    margin-left: 1px;
+}
+
+.scroll_cards .card_item {
+    display: flex;
+    padding: 16px 4px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    margin: 10px 7px;
+    width: 140px;
+    height: 156px;
+}
+
+.scroll_cards .card_item .text {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.38;
+    margin-top: 16px;
+}
+
+.scroll_cards .card_item .text {
+    font-family: 'Inter var', sans-serif;
+}
+
+.scroll_cards .card_item .text:hover {
+    color: #008BDC;
+}
+
+.scroll_cards .card_item:hover {
+    box-shadow: 0.25px 0.5px 4px 2px rgb(238, 228, 228);
+    border-radius: 3px;
+}
+
+.scroll_cards .card_item:last-of-type {
+    margin-right: 1px;
+}
+
+#trainings #trainings_container {
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow-right:after {
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #0cadec;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    vertical-align: middle;
+}
+
+.arrow-right:before {
+    width: 8px;
+    height: 2px;
+    background: #0cadec;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#trainings #trainings_container .card_item {
+    height: 172px;
+    padding: 16px 8px 18px;
+    margin: 10px 7px;
+}
+
+#trainings #trainings_container .card_item:first-of-type {
+    margin-left: 0;
+}
+
+#trainings #trainings_container .card_item:last-of-type {
+    margin-right: 0;
+}
+
+.view_all_container_20_more {
+    text-align: center;
+    margin-top: 24px;
+}
+
+#fresher_jobs_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .img {
+    height: 88px;
+    width: 88px;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .name {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 64px 32px;
+}
+
+#fresher_jobs .superscript {
+    background: #FF8C00;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    padding: 4px 16px;
+    margin-left: 4px;
+    position: relative;
+    bottom: 4px;
+}
+
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+.footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_list_item a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 2;
+}
+
+#footer_bottom {
+    border-top: 1px solid #666;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+#android_app_container {
+    display: inline-block;
+    color: #fff;
+    margin-right: 32px;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#social_media_container {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#social_media_container a {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#copyright {
+    float: right;
+    margin-top: 10px;
+}
+
+.footer_offer {
+    background-color: #ff8c00;
+    border-radius: 5px;
+}
+
+.footer_offer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
